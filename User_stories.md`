@@ -1,0 +1,67 @@
+As a player,
+I want to start a new game of Pong,
+So that I can begin playing right away.
+
+Acceptance Criteria:
+The player must be able to start a new game from the main menu with a "Start" button.
+The game should reset the score to zero at the beginning of each new match.
+The ball should spawn at the center of the screen and move in a random direction.
+The player should be able to select a mode (e.g., single-player or two-player) at the start.
+
+
+
+As a player,
+I want to control my paddle with the keyboard or touch screen,
+So that I can move it up and down to hit the ball.
+
+Acceptance Criteria:
+In keyboard mode, the player can use the up and down arrow keys to move the paddle (or W and S keys, depending on configuration).
+In touchscreen mode, the player should be able to swipe up or down to move the paddle.
+The paddle should move smoothly and in real-time as the player inputs controls.
+The paddle should not move off the screen (i.e., restrict movement to within the game area).
+
+
+
+As a player,
+I want to score points by hitting the ball past my opponent’s paddle,
+So that I can win the game.
+
+Acceptance Criteria:
+When the ball passes the opponent’s paddle, the player should score one point.
+The score should update in real-time on the screen.
+The player’s score should be shown on the left side and the opponent's score on the right side.
+When a point is scored, the ball should reset to the center of the screen and continue moving in a random direction.
+
+
+As a player,
+I want to know when I win the game,
+So that I can feel a sense of accomplishment.
+
+Acceptance Criteria:
+The game ends when one player reaches a predetermined number of points (e.g., 10 points).
+A "Game Over" screen should appear with a message saying, "You Win!" or "You Lose," depending on the outcome.
+The final score should be displayed on the game over screen.
+The player should have the option to Restart or Exit from the Game Over screen.
+
+
+
+As a player,
+I want to see the score displayed during the game,
+So that I can track how well I'm doing compared to my opponent.
+
+Acceptance Criteria:
+The player’s score should be displayed in the top-left corner of the screen.
+The opponent’s score should be displayed in the top-right corner.
+The scores should update in real-time as points are scored.
+The score should be visible at all times during gameplay, even when the ball is in motion
+
+
+As a player,
+I want to play against another player locally,
+So that I can have fun competing with a friend.
+
+Acceptance Criteria:
+The game must support two-player local multiplayer, where each player controls a separate paddle.
+The players must be able to control their paddles simultaneously using different input devices (e.g., one using the keyboard and the other using arrow keys).
+The game must allow both players to see their respective scores on the screen.
+The players should be able to restart the match after each game.
