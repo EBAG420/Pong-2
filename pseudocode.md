@@ -1,4 +1,4 @@
-Pseudocode Frame
+
 	1.	Start: ball stars in the middle
 	2.	Input: which paddle does the ball hit
 	3.	Process: see if the ball goes into the goal
