@@ -51,7 +51,7 @@ Action:
 
 
 
-Part 6: Build a table to present all the test information
+Part 6: test information
 
 
 1. Player count: 
